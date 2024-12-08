@@ -4,7 +4,9 @@ Create a comprehensive data integration workflow that seamlessly moves and trans
 This project involves:
 Data Extraction: Collect raw data from diverse sources including:
 -Comma-separated value (CSV) files
+
 -JavaScript Object Notation (JSON) files
+
 -Relational database systems
 
 Initial Storage: Temporarily store source data in an Amazon S3 bucket for initial processing.
