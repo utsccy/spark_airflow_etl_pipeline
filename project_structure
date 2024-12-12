@@ -1,0 +1,43 @@
+pyspark-etl/
+├── airflow/
+│   ├── dags/
+│   │   ├── __init__.py
+│   │   └── titanic_pipeline_dag.py
+│   └── scripts/
+│       └── run_pipeline.py
+├── data/
+│   ├── Titanic-Dataset.csv
+│   ├── processed/
+│   │   ├── titanic_processed/
+│   │   └── titanic_processed.csv
+│   └── predictions/
+│       ├── titanic_predictions/
+│       └── titanic_predictions.csv
+├── src/
+│   ├── __init__.py
+│   ├── config/
+│   │   ├── __init__.py
+│   │   └── config.py
+│   ├── jobs/
+│   │   ├── __init__.py
+│   │   ├── data_preprocessing.py
+│   │   └── model_training.py
+│   └── utils/
+│       ├── __init__.py
+│       ├── spark_utils.py
+│       └── ml_utils.py
+├── models/
+│   └── saved_models/
+│       └── titanic_model/
+├── logs/
+│   ├── scheduler/
+│   └── webserver/
+├── tests/
+│   ├── __init__.py
+│   └── test_preprocessing.py
+├── README.md
+├── requirements.txt
+├── pyproject.toml
+├── .env
+├── docker-compose.yaml
+└── Dockerfile 
