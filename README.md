@@ -1,6 +1,14 @@
-# PySpark ETL and ML Pipeline for Titanic Dataset
+# Data Pipeline ETL Solution Using PySpark and Airflow
+Create a comprehensive data integration workflow that seamlessly moves and transforms data from multiple sources to a centralized storage system. The goal is to create a scalable, efficient data pipeline that transforms raw, potentially messy data into a clean, structured format ready for business intelligence and decision-making processes.
 
-This project implements an ETL (Extract, Transform, Load) pipeline and machine learning model using PySpark to analyze the Titanic dataset. The pipeline includes data preprocessing, feature engineering, and model training steps.
+This project involves:
+Data Extraction: Collect raw data from diverse sources including:
+
+-Comma-separated value (CSV) files
+
+-JavaScript Object Notation (JSON) files
+
+-Relational database systems
 
 ## Project Structure
 
