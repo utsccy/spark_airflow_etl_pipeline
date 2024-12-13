@@ -37,7 +37,5 @@ pyspark-etl/
 │   └── test_preprocessing.py
 ├── README.md
 ├── requirements.txt
-├── pyproject.toml
-├── .env
 ├── docker-compose.yaml
-└── Dockerfile 
+└── Dockerfile
